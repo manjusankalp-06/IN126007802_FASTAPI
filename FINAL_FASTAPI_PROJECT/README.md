@@ -1,44 +1,62 @@
-        **🎬 FastAPI Movie Booking System**
+# 🎬 Movie Ticket Booking API
 
-        📌 Project Overview
-        This project is a backend system built using **FastAPI** that simulates a real-world movie ticket booking application. It includes CRUD operations, booking                 workflows, and advanced API features like search, sorting, and pagination.
+## 📌 About the Project
+This project is developed as part of my **FastAPI internship final assignment**.  
+The main goal is to build a **complete backend system** instead of just simple APIs.
 
+It represents a **Movie Ticket Booking system**, where users can check movies, manage bookings, and handle seat availability.
 
-        🚀 Features
+---
 
-        Core Features
-        - Get all movies
-        - Get movie by ID
-        - Create new movie
-        - Update movie details
-        - Delete movie
+## 🚀 What This API Does
 
-        Booking Workflow
-        - Seat Hold (temporary reservation)
-        - Seat Confirm (final booking)
-        - Seat Release (cancel hold)
+Using this API, a user can:
 
-        Advanced APIs
-        - Search movies (keyword-based)
-        - Filter movies (genre, language, price, seats)
-        - Sort movies (price, duration, seats)
-        - Pagination (page & limit)
-        - Combined browsing (search + filter + sort + pagination)
+- View all movies
+- Get details of a specific movie
+- Book tickets for a movie
+- Hold seats before confirming booking
+- Confirm or cancel seat holds
+- Search and filter movies
+- Sort and paginate results
 
-        Booking APIs
-        - Create booking
-        - Get all bookings
-        - Search bookings
-        - Sort bookings
-        - Pagination for bookings
+---
 
+## ⚙️ Technologies Used
 
-        Technologies Used
-        - Python
-        - FastAPI
-        - Uvicorn
-        - Pydantic
+- Python  
+- FastAPI  
+- Pydantic (for validation)  
+- Uvicorn (server)  
+- Swagger UI (for testing APIs)
 
+---
 
+## 🧠 Main Functionalities
 
-        📂 Project Structure
+### 🎬 Movie Management
+- Add new movies  
+- Update movie details  
+- Delete movies  
+- View all movies and individual movie  
+
+### 🎟️ Booking System
+- Create booking  
+- View bookings  
+- Search bookings  
+
+### 🪑 Seat Handling (Workflow)
+- Hold seats temporarily  
+- Confirm booking using hold ID  
+- Release seats if not needed  
+
+### 🔍 Advanced Features
+- Search movies using keyword  
+- Filter movies based on conditions  
+- Sort movies (price, seats, etc.)  
+- Pagination for large data  
+- Combined browsing (search + filter + sort + pagination)  
+
+---
+
+## 📂 Project Structure
