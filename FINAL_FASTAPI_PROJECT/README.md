@@ -58,6 +58,7 @@ Using this API, a user can:
 - Combined browsing (search + filter + sort + pagination)  
 
 ---
+## 📂 Project Structure
 
 FINAL_FASTAPI_PROJECT/
 │
