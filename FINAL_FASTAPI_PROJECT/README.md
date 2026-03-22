@@ -111,8 +111,6 @@ Below are the main API groups implemented in this project:
 
 ## Final Note
 
-## 📌 Final Note
-
 This project gave me practical experience in building backend APIs using FastAPI.  
 It shows how real-world systems handle data, workflows, and user actions.
 
