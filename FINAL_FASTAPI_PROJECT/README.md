@@ -1,6 +1,6 @@
 # 🎬 Movie Ticket Booking API
 
-## 📌 About the Project
+## About the Project
 This project is developed as part of my **FastAPI internship final assignment**.  
 The main goal is to build a **complete backend system** instead of just simple APIs.
 
@@ -8,7 +8,7 @@ It represents a **Movie Ticket Booking system**, where users can check movies, m
 
 ---
 
-## 🚀 What This API Does
+## What This API Does
 
 Using this API, a user can:
 
@@ -22,7 +22,7 @@ Using this API, a user can:
 
 ---
 
-## ⚙️ Technologies Used
+## Technologies Used
 
 - Python  
 - FastAPI  
@@ -32,7 +32,7 @@ Using this API, a user can:
 
 ---
 
-## 🧠 Main Functionalities
+## Main Functionalities
 
 ### 🎬 Movie Management
 - Add new movies  
@@ -40,17 +40,17 @@ Using this API, a user can:
 - Delete movies  
 - View all movies and individual movie  
 
-### 🎟️ Booking System
+### Booking System
 - Create booking  
 - View bookings  
 - Search bookings  
 
-### 🪑 Seat Handling (Workflow)
+### Seat Handling (Workflow)
 - Hold seats temporarily  
 - Confirm booking using hold ID  
 - Release seats if not needed  
 
-### 🔍 Advanced Features
+### Advanced Features
 - Search movies using keyword  
 - Filter movies based on conditions  
 - Sort movies (price, seats, etc.)  
