@@ -34,7 +34,7 @@ Using this API, a user can:
 
 ## Main Functionalities
 
-### 🎬 Movie Management
+### Movie Management
 - Add new movies  
 - Update movie details  
 - Delete movies  
@@ -59,15 +59,13 @@ Using this API, a user can:
 
 ---
 
-## 📂 Project Structure
 FINAL_FASTAPI_PROJECT/
 │
-├── main.py
-├── requirements.txt
-├── README.md
+├── main.py # FastAPI app
+├── requirements.txt # Dependencies
+├── README.md # Documentation
 │
-└── screenshots/
-
+└── screenshots/ # Output images
 
 ---
 
@@ -84,30 +82,20 @@ http://127.0.0.1:8000/docs
 
 ---
 
-## 🧪 API Categories
+## 🧪 API Endpoints Summary
 
-### Movies
-- `http://127.0.0.1:8000/docs#/default/get_movies_movies_get`
-- `http://127.0.0.1:8000/docs#/default/create_movie_movies_post`
-- `http://127.0.0.1:8000/docs#/default/search_movies_movies_search_get`
-- `http://127.0.0.1:8000/docs#/default/get_movie_movies__movie_id__get`
-- `http://127.0.0.1:8000/docs#/default/update_movie_movies__movie_id__put`
-- `http://127.0.0.1:8000/docs#/default/delete_movie_movies__movie_id__delete`
+Below are the main API groups implemented in this project:
 
-### Booking
-- `http://127.0.0.1:8000/docs#/default/get_bookings_bookings_get`
-- `http://127.0.0.1:8000/docs#/default/book_ticket_bookings_post`
-
-### Seat Workflow
-- `http://127.0.0.1:8000/docs#/default/hold_seats_seat_hold_post`
-- `http://127.0.0.1:8000/docs#/default/get_holds_seat_hold_get`
-- `http://127.0.0.1:8000/docs#/default/confirm_hold_seat_confirm__hold_id__post`
-- `http://127.0.0.1:8000/docs#/default/release_hold_seat_release__hold_id__delete`
-
-### Advanced APIs
-- `http://127.0.0.1:8000/docs#/default/search_bookings_bookings_search_get`
-- `http://127.0.0.1:8000/docs#/default/sort_bookings_bookings_sort_get`
-- `http://127.0.0.1:8000/docs#/default/paginate_bookings_bookings_page_get`
+| Module        | Available Routes |
+|--------------|-----------------|
+| Home & Movies | `/`, `/movies`, `/movies/{movie_id}` |
+| Movie Filters | `/movies/filter`, `/movies/search` |
+| Booking APIs  | `/bookings`, `/bookings/search` |
+| Movie Control | `/movies` (POST, PUT, DELETE) |
+| Seat Handling | `/seat-hold`, `/seat-confirm/{hold_id}`, `/seat-release/{hold_id}` |
+| Sorting       | `/movies/sort` |
+| Pagination    | `/movies/page` |
+| Combined View | `/movies/browse` |
 
 ---
 
@@ -122,11 +110,9 @@ http://127.0.0.1:8000/docs
 
 ## Final Note
 
-This project helped me understand how a real backend system works.  
-It can be further improved by adding database, authentication, and payment features.
+## 📌 Final Note
+
+This project gave me practical experience in building backend APIs using FastAPI.  
+It shows how real-world systems handle data, workflows, and user actions.
 
 ---
-
-👨‍💻 Author
-
-**Sankalp (Manju Sankalp)**
